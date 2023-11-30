@@ -53,7 +53,7 @@ describe( " Test Task 3 Script" , function(){
 */
 
 
-    });
+  
 
     
 
@@ -61,9 +61,8 @@ describe( " Test Task 3 Script" , function(){
     //{
 
         
-       //cy.visit('https://demoqa.com/books?book=9781593277574');
+       //cy.visit('https://demoqa.com/books?book=9781593277574')
 
-/*
        cy.intercept(
         {
           method: 'GET',
@@ -89,9 +88,10 @@ describe( " Test Task 3 Script" , function(){
       ).as('interceptedRequest');
 
 
-*/
+
 
       
+});
 
       //cy.log( response.body);
 
